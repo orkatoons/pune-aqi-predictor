@@ -14,7 +14,8 @@ The model will be trained on 2 distinct time-series datasets, which will be merg
     Time Period: 2019-01-01 to 2024-12-31 (6 years)
 
 * Air Quality Data:
-    Source: OpenAQ API
+    Source: Central Control Room for Air Quality Management - All India
+    Link: https://airquality.cpcb.gov.in/ccr/#/caaqm-dashboard-all/caaqm-landing/aqi-repository
     Location: Pune, Maharashtra, India
     Time Period: 2019-01-01 to 2024-12-31 (Same as weather data)
 
@@ -30,5 +31,5 @@ Since we are solving a regression based problem we will be using the Root Mean S
 * Dominant Wind Direction - Dominant wind direction
 * Mean Wind Speed - Average wind speed during the day, higher wind means pollutants are spread thin over a larger area
 * Mean Cloud Cover - Checking
-* PM25 - Highest value of PM25 particles on a given day (Target Variable)
+* AQI - Overall AQI Value of the city on a given day (Target Variable)
 

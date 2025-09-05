@@ -1,0 +1,12 @@
+pandas
+requests
+jupyterlab
+scikit-learn
+matplotlib
+seaborn
+openmeteo_requests
+requests_cache
+retry_requests
+openaq
+dotenv
+openpyxl
